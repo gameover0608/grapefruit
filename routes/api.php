@@ -31,5 +31,5 @@ Route::put('trips/update/{id}', 'TripController@updateTrip');
 Route::delete('trips/delete/{id}','TripController@deleteTrip');
 Route::get('trips/filter','TripController@filterTrips');
 
-Route::post('book/create', 'BookingController@book');
+Route::post('booking/create', 'BookingController@book');
 
